@@ -22,7 +22,15 @@ Built with Python, FastAPI, WebSocket, QEMU, SQLite, Solana, IPFS, MCP, and A2A.
 
 ---
 
-**[SFS](https://github.com/brokeboiflex/sfs-node)** is a full file storage ecosystem I designed and published to npm — a [core library](https://github.com/brokeboiflex/sfs-node) handling disk space checks, file type detection, and UUID-based naming, an [Express middleware](https://github.com/brokeboiflex/sfs-express) that drops file upload support into any server in one line, and a [React client](https://github.com/brokeboiflex/sfs-frontend) that ties it all together. Three packages, one cohesive system.
+### SFS — Simple File Storage
+
+A three-package npm ecosystem that handles file uploads end to end. I built it because wiring up file uploads across the stack is tedious boilerplate that everyone rewrites from scratch.
+
+[**sfs-node**](https://github.com/brokeboiflex/sfs-node) is the core — disk space checks, MIME type detection, UUID-based naming, and a clean API for storing and retrieving files. [**sfs-express**](https://github.com/brokeboiflex/sfs-express) wraps it into Express middleware so adding file upload support to a server is a one-liner. [**sfs-frontend**](https://github.com/brokeboiflex/sfs-frontend) is the React client that handles the upload UX and talks to the backend.
+
+All three are published on npm and designed to work together or independently.
+
+---
 
 **[zustand-chrome-storage](https://github.com/brokeboiflex/zustand-chrome-storage)** solved my own headache with Chrome extension state — turns out other people had the same one. **[firebuster](https://github.com/brokeboiflex/firebuster)** came from finding too many wide-open Firebase instances. **[nodeusz](https://github.com/brokeboiflex/nodeusz)** bridges Polish morphological analysis into the JS ecosystem via C++ N-API because nobody else was going to do it.
 
