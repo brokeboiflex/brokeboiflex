@@ -1,49 +1,15 @@
-# Hey, I'm brokeboiflex
+# Hey, I'm Marcel
 
-Full-stack engineer from Poland. I work across the entire stack — from browser extensions and CLI tools to backend middleware and native addons.
+Full-stack engineer and cognition researcher based in Poland.
 
----
+I like building things that sit at uncomfortable intersections — browser extensions that need persistent state, native bindings for obscure NLP tools, middleware that untangles nested data, security audits for misconfigured backends. If it's fiddly and nobody wants to deal with it, I'm probably interested.
 
-### Featured
+Most of my 85+ repos are private client and research work, but here's what I've put out in the open:
 
-**[zustand-chrome-storage](https://github.com/brokeboiflex/zustand-chrome-storage)** – Middleware for persistent Zustand state in Chrome extensions. ★ 8
+**[zustand-chrome-storage](https://github.com/brokeboiflex/zustand-chrome-storage)** solved my own headache with Chrome extension state — turns out other people had the same one. **[firebuster](https://github.com/brokeboiflex/firebuster)** came from finding too many wide-open Firebase instances. **[nodeusz](https://github.com/brokeboiflex/nodeusz)** bridges Polish morphological analysis into the JS ecosystem via C++ N-API because nobody else was going to do it.
 
-**[jar-preact](https://github.com/brokeboiflex/jar-preact)** – JAR — a JSX Abstract Router for Preact. Also: [jar-react](https://github.com/brokeboiflex/jar-react) for React.
+I've also built a [JSX router](https://github.com/brokeboiflex/jar-preact) for Preact (and [React](https://github.com/brokeboiflex/jar-react)), [Strapi middleware](https://github.com/brokeboiflex/strapi-middleware-resolveNestedObjects) for painless nested object mutations, a [Cloudflare Worker](https://github.com/brokeboiflex/woocommercemiddleware) for WooCommerce, and a [file storage ecosystem](https://github.com/brokeboiflex/sfs-node) published to npm.
 
-**[firebuster](https://github.com/brokeboiflex/firebuster)** – CLI utility for auditing Firebase misconfigurations in Node.js. ★ 1
+When I'm not shipping code I'm reading papers on cognitive enhancement and running experiments — the ORCID on my profile isn't decorative.
 
-**[strapi-middleware-resolveNestedObjects](https://github.com/brokeboiflex/strapi-middleware-resolveNestedObjects)** – Painless POST and PUT of nested objects in Strapi. ★ 4
-
----
-
-### Tools & Libraries
-
-**[nodeusz](https://github.com/brokeboiflex/nodeusz)** – Node.js native bindings (C++ N-API) for Morfeusz2, the Polish morphological analyzer.
-
-**[unseal](https://github.com/brokeboiflex/unseal)** – Portable ADB wrapper for Android device management. Bundles ADB binaries, no external install needed.
-
-**[SFS](https://github.com/brokeboiflex/sfs-node)** – Simple File Storage — a three-package npm ecosystem ([core](https://github.com/brokeboiflex/sfs-node) · [express](https://github.com/brokeboiflex/sfs-express) middleware · [react client](https://github.com/brokeboiflex/sfs-frontend)) for file uploads.
-
-**[csv-magic-fixer](https://github.com/brokeboiflex/csv-magic-fixer)** – CSV parsing and fixing utility in Python.
-
-**[dabundl](https://github.com/brokeboiflex/dabundl)** – Minimal Vite config for bundling packages locally instead of using CDNs.
-
-**[libgen-cleaner](https://github.com/brokeboiflex/libgen-cleaner)** – Script to clean up libgen documents.
-
-**[woocomercemiddleware](https://github.com/brokeboiflex/woocomercemiddleware)** – Cloudflare Worker middleware for the WooCommerce REST API.
-
----
-
-### Other
-
-**[yolo-opencv-detector](https://github.com/brokeboiflex/yolo-opencv-detector)** – Hands-on YOLO object detection tutorial.
-
-**[flies](https://github.com/brokeboiflex/flies)** – Simulation of fruit fly sexual selection experiment.
-
-**[hermit-images](https://github.com/brokeboiflex/hermit-images)** – Pre-built base images for HermitOS.
-
----
-
-### Tech
-
-`TypeScript` `JavaScript` `Python` `C++` `Rust` `React` `Preact` `Next.js` `Node.js` `Express` `Strapi` `Vite` `Cloudflare Workers` `SQLite`
+`TypeScript` `JavaScript` `Python` `C++` `Rust` `React` `Node.js` `Cloudflare Workers`
